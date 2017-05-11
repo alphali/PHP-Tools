@@ -3,6 +3,7 @@ class Download
 {
 	const CONTENT_TYPE_TXT			= 'text/plain';
 	const CONTENT_TYPE_IMAGE		= 'image/gif';
+	const CONTENT_TYPE_HTML			= 'text/html';
 
 	static public function down($type, $file) {
 		if(!file_exists($file)) {
